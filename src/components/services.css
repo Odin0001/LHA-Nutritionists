@@ -1,0 +1,38 @@
+.services-container .container h1 {
+  color: var(--dark-green);
+}
+
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 20px black;
+}
+
+.service img {
+  width: 100%;
+  height: 100%;
+}
+
+.service p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: var(--dark-green);
+}
+
+@media screen and (max-width: 762px) {
+  .services-content {
+    grid-template-columns: 1fr;
+  }
+
+  .services-container .container h1 {
+    font-size: 2.2rem;
+  }
+}

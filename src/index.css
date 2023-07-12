@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Wix+Madefor+Display&display=swap');
+
+:root {
+  --dark-green: rgb(22,112,60);
+  --light-green: rgb(134,189,95);
+  --gray: rgb(115,115,115);
+  --shadow: rgba(50, 50, 93, .40) 0 30px 30px -20px;
+  --transition: all .4s ease-in-out;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Wix Madefor Display', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+  color: white;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: 'PT Serif', serif;
+  padding: 1rem 0 ;
+}
+
+section {
+  margin-top: 8rem;
+  min-height: 50vh;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+}
+
+a {
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.btn {
+  width: max-content;
+  display: block;
+  background-color: transparent;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid var(--light-green);
+  font-family: 'Wix Madefor Display', sans-serif;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--light-green);
+}
+
+.btn-primary {
+  border: 1px solid transparent;
+  background: var(--dark-green);
+  font-family: 'Wix Madefor Display', sans-serif;
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  border-color: var(--dark-green);
+  background-color: transparent;
+}
+
+/*---------------------------medium width------------------------*/
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/*--------------------------small sizes-----------------*/
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2{
+    margin-bottom: 2rem;
+  }
+}
+
+
+/*-------------------------------------------ARABIC CLASSES---------------------------------*/
+.text-right {
+  text-align: right;
+}
+
+.big-font {
+  font-size: 2rem;
+}

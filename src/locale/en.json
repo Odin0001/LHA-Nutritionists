@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "nav1": "About",
+    "nav2": "Services",
+    "nav3": "Results",
+    "nav4": "testimonials",
+    "nav5": "contact"
+  },
+  "about": {
+    "title": "Meet Our Nutritionists",
+    "desc": "Nutritionists, graduates of the Faculty of Technical Engineering, Food Department, Aleppo University. Holders of certificates from several courses in the field of nutrition and diet planning, more than three years of experience in helping people reach their nutritional goals, such as losing and gaining weight, following up on athletes, pregnant and lactating women, and people suffering from certain diseases such as irritable bowel syndrome, polycystic ovaries, and Vitamin deficiency"
+  },
+  "why": {
+    "title": "Why LHA",
+    "reason1": "Great results in a record time",
+    "reason2": "Permanent daily follow-up",
+    "reason3": "You will not be deprived of your favorite meals"
+  },
+  "services": {
+    "title": "Our Services",
+    "service1": "Weight Loss",
+    "service2": "Weight Gain",
+    "service3": "Athletics Diet",
+    "service4": "Pregnants Diet"
+  },
+  "results": {
+    "title": "Success Stories",
+    "before": "Before",
+    "after": "After"
+  },
+  "testimonials": {
+    "title" : "Testimonials"
+  },
+  "bmi": {
+    "title": "BMI",
+    "formTitle": "Insert Your Height and Weight",
+    "heightPlaceholder": "Height in Meter",
+    "weightPlaceholder": "Weight in KG",
+    "bmiSubmit": "Submit",
+    "bmiResult": "Your Result Here",
+    "under": "Underweight",
+    "healthy": "Healthy",
+    "over": "Overweight",
+    "obesity": "Obesity"
+  },
+  "footer": {
+    "title": "Reach Us",
+    "location": "Location: Aleppo, Al-Mouhafaza, Sameh Jabal Street"
+  }
+}

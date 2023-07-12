@@ -1,0 +1,43 @@
+.main {
+  width: 70%;
+  min-height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+.main blockquote {
+  text-align: center;
+  padding: 20px;
+  font-size: 3rem;
+  width: 100%;
+  color: white;
+  background-color: rgba(22,112,60, .5);
+  font-family: 'PT Serif', serif;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    width: 104vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 104vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .main blockquote {
+    font-size: 1.4rem;
+    
+  }
+}

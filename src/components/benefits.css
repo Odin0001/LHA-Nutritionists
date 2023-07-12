@@ -1,0 +1,55 @@
+.benefits-container {
+  background: url(../assets/leafe.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.elements p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1.5rem;
+  height: 100%;
+  border-radius: 1rem;
+  border: 1px solid white;
+  transition: var(--transition);
+}
+
+.elements p:hover {
+  background-color: var(--dark-green);
+}
+
+@media screen and (max-width: 992px) {
+  .benefits-container {
+    width: 104vw;
+  }
+
+  /* .container {
+    max-width: 90% !important;
+    margin-right: 2rem !important;
+  } */
+  
+  .benefits-container h1 {
+    font-size: 2.2rem;
+  }
+  
+  .elements {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .elements img {
+    margin: auto;
+  }
+}
