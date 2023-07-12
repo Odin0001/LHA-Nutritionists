@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
         <div className="copy">
           <p>&copy;2022 - {year} L.H.A Nutritionists. All Rights Reserved.</p>
-          <p className='developed'>Developed by Philip Jobran <a href="https://www.linkedin.com/in/philip-jobran-75bb3a21b/" target='_blank'><img src={myImg} /></a></p>
+          <p className='developed'>Developed by Philip Jobran <a href="https://www.linkedin.com/in/philip-jobran-75bb3a21b/" target='_blank'><img src={myImg} loading='lazy' /></a></p>
         </div>
       </div>
     </footer>

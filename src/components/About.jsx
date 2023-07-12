@@ -20,18 +20,18 @@ const About = () => {
         <div className="about-content">
           <div className="imgs-container">
             <div className="image">
-              <img src={lourd} alt="Lourd" className='faces' />
-              <img src={L} className='letters' />
+              <img src={lourd} alt="Lourd" loading='lazy' className='faces' />
+              <img src={L} loading='lazy' className='letters' />
             </div>
 
             <div className="image">
-              <img src={haya} alt="Haya" className='faces' />
-              <img src={H} className='letters' />
+              <img src={haya} alt="Haya" loading='lazy' className='faces' />
+              <img src={H} loading='lazy' className='letters' />
             </div>
 
             <div className="image">
-              <img src={aleen} alt="Aleen" className='faces' />
-              <img src={A} className='letters' />
+              <img src={aleen} alt="Aleen" loading='lazy' className='faces' />
+              <img src={A} loading='lazy' className='letters' />
             </div>
           </div>
           <div className="text-container">

@@ -15,11 +15,11 @@ const Benefits = () => {
       <h1 className={i18n.language == 'ar' && 'text-right'}>{t('why.title')}</h1>
         <hr />
         <div className="elements">
-          <img src={one} />
+          <img src={one} loading='lazy' />
           <p className={i18n.language == 'ar' && 'text-right'}>{t('why.reason1')}</p>
-          <img src={two} />
+          <img src={two} loading='lazy' />
           <p className={i18n.language == 'ar' && 'text-right'}>{t('why.reason2')}</p>
-          <img src={three} />
+          <img src={three} loading='lazy' />
           <p className={i18n.language == 'ar' && 'text-right'}>{t('why.reason3')}</p>
         </div>
       </div>
